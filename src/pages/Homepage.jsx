@@ -1,11 +1,14 @@
 import { Link, NavLink } from "react-router-dom";
 import Beers from "./../assets/beers.png";
 import NewBeer from "./../assets/new-beer.png";
-import RandomBeer from "./../assets/random-beer.png"
+import RandomBeer from "./../assets/random-beer.png";
+// import Header from "./../components/Header"
+
 
 function Homepage() {
   return (
     <div>
+    {/* <Header/> */}
       <h1>HOME PAGE</h1>
       <Link to="/beers">
       <img src={Beers} alt="beers" className="beers" height="600px"/>
